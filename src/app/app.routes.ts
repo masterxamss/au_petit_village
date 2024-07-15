@@ -4,7 +4,8 @@ import { Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
-import { CatalogComponent } from './pages/catalog/catalog.component';
+import { ProductComponent } from './pages/product/product.component';
+import { CatalogComponent } from './components/catalog/catalog.component';
 
 export const routes: Routes = [
     {
@@ -18,6 +19,10 @@ export const routes: Routes = [
     {
         path: 'contact',
         component: ContactComponent
+    },
+    {
+        path: 'product',
+        component: ProductComponent
     },
     {
         path: '',
