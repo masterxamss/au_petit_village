@@ -1,0 +1,47 @@
+{
+    "figurines": [
+        {
+            "id": 1,
+            "name": "Asterix assis sur un rocher",
+            "description": "Asterix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": 19.90,
+            "image": {
+                "src": "asterix.jpg",
+                "alt": "Asterix assis sur un rocher"
+            }
+        },
+
+        {
+            "id": 2,
+            "name": "Obélix et son tonneau",
+            "description": "Obélix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": 109.90,
+            "image": {
+                "src": "obelix.jpg",
+                "alt": "Obélix et son tonneau"
+            }
+        },
+
+        {
+            "id": 3,
+            "name": "Idefix",
+            "description": "Idefix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": 19.90,
+            "image": {
+                "src": "idefix.jpg",
+                "alt": "Idefix"
+            }
+        },
+
+        {
+            "id": 4,
+            "name": "Cleopatre",
+            "description": "Cleopatre est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": 44.90,
+            "image": {
+                "src": "cleopatre.jpg",
+                "alt": "Cleopatre 'Qu'on serve l'aperitif'"
+            }
+        }  
+    ]
+}
