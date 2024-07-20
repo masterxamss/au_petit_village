@@ -1,1 +1,5 @@
-<p>catalog works!</p>
+<div *ngIf="figure">
+    <h2>{{ figure.name }}</h2>
+        <img src="./assets/images/figurines/{{ figure.image.src }}" alt="{{ figure.image.alt }}"/>
+    <p>{{ figure.price }}</p>
+</div>

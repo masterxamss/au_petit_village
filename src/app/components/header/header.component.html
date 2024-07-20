@@ -1,9 +1,85 @@
 <header>
-    <nav>
-        <ul>
-            <li><a routerLink="/">Home</a></li>
-            <li><a routerLink="/about">About</a></li>
-            <li><a routerLink="/contact">Contact</a></li>
-        </ul>
-    </nav>
+  <!--<div class="container">
+    <div class="row d-flex align-items-center">
+
+      <div class="col-md-3 col-sm-3 col-3">
+        <img
+          src="./assets/images/template.png"
+          alt="logo"
+          class="logo"
+          width="100px"
+        />
+      </div>
+
+      <div class="col-md-9 col-sm-9 col-9 text-end">
+
+        <div class="menu-icon" (click)="Menu()">
+          <i class="{{ menu_icon }}"></i>
+        </div>
+
+        <div class="desktop_menu" [class.mobile_menu]="menuValue">
+          <nav>
+            <ul>
+              <li>
+                <i class="bi bi-house-fill"></i>
+                <a routerLink="/" (click)="Menu()">Home</a>
+              </li>
+              <li>
+                <i class="bi bi-people-fill"></i>
+                <a routerLink="/about" (click)="Menu()">About</a>
+              </li>
+              <li>
+                <i class="bi bi-telephone-fill"></i>
+                <a routerLink="/contact" (click)="Menu()">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div> -->
+
+  <div class="header-container">
+
+      <div class="header-logo">
+        <img
+          src="./assets/images/template.png"
+          alt="logo"
+          class="logo"
+          width="100px"
+        />
+      </div>
+
+      <div class="header-image">
+        <img src="./assets/images/image.png" alt="image" width="250px" />
+        <h1>Au petit village</h1>
+      </div>
+
+      <nav class="header-nav">
+
+        <div class="menu-icon" (click)="Menu()">
+          <i class="{{ menu_icon }}"></i>
+        </div>
+
+        <div class="desktop_menu" [class.mobile_menu]="menuValue">
+            <ul>
+              <li>
+                <i class="bi bi-house-fill"></i>
+                <a routerLink="/" (click)="Menu()">Home</a>
+              </li>
+              <li>
+                <i class="bi bi-people-fill"></i>
+                <a routerLink="/about" (click)="Menu()">About</a>
+              </li>
+              <li>
+                <i class="bi bi-telephone-fill"></i>
+                <a routerLink="/contact" (click)="Menu()">Contact</a>
+              </li>
+            </ul>
+        </div>
+
+      </nav>
+
+    </div>
 </header>

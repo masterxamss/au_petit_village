@@ -1,1 +1,22 @@
-<p>home-page works!</p>
+<section>
+    
+    <div>
+      <form>
+        <input type="text" placeholder="" [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}">
+        <select name="price" id="price-select" [(ngModel)]="sorting">
+          <option value="">Trier par prix</option>
+          <option value="asc">Croissant</option>
+          <option value="desc">Decroissant</option>
+        </select>
+      </form>
+    </div>
+    
+    <div *ngFor="let figure of figure | filterByName: searchTerm | sortByPrice: sorting">
+      <h2>{{ figure.name }}</h2>
+      <a routerLink="/product/{{ figure.id }}">
+        <img src="./assets/images/figurines/{{ figure.image.src }}" alt="{{ figure.image.alt }}"/>
+      </a>
+      
+      <p>{{ figure.price }}</p>
+    </div>
+    </section>
