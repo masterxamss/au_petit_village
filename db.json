@@ -2,12 +2,13 @@
     "figurines": [
         {
             "id": 1,
-            "name": "Asterix assis sur un rocher",
+            "name": "Figurine Asterix",
             "description": "Asterix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
-            "price": 19.90,
+            "price": "19.90",
+            "tag": "Nouveau",
             "image": {
-                "src": "asterix.jpg",
-                "alt": "Asterix assis sur un rocher"
+                "src": "asterix.png",
+                "alt": "Figurine Asterix"
             }
         },
 
@@ -15,9 +16,10 @@
             "id": 2,
             "name": "Obélix et son tonneau",
             "description": "Obélix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
-            "price": 109.90,
+            "price": "109.90",
+            "tag": "Edition limitée",
             "image": {
-                "src": "obelix.jpg",
+                "src": "obelix-et-son-tonneau.png",
                 "alt": "Obélix et son tonneau"
             }
         },
@@ -26,9 +28,10 @@
             "id": 3,
             "name": "Idefix",
             "description": "Idefix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
-            "price": 19.90,
+            "price": "19.90",
+            "tag": "Edition limitée",
             "image": {
-                "src": "idefix.jpg",
+                "src": "idefix-xxl.png",
                 "alt": "Idefix"
             }
         },
@@ -37,11 +40,109 @@
             "id": 4,
             "name": "Cleopatre",
             "description": "Cleopatre est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
-            "price": 44.90,
+            "price": "44.90",
+            "tag": "Edition limitée",
             "image": {
-                "src": "cleopatre.jpg",
+                "src": "cleopatre.png",
                 "alt": "Cleopatre 'Qu'on serve l'aperitif'"
             }
-        }  
+        },
+
+        {
+            "id": 5,
+            "name": "Abraracourcix",
+            "description": "Abraracourcix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "image": {
+                "src": "abraracourcix.png",
+                "alt": "abraracourcix"
+            }
+        },
+
+        {
+            "id": 6,
+            "name": "Amerix",
+            "description": "Amerix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "image": {
+                "src": "amerix.png",
+                "alt": "amerix"
+            }
+        },
+
+        {
+            "id": 7,
+            "name": "Assurancetourix",
+            "description": "Assurancetourix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "image": {
+                "src": "assurancetourix.png",
+                "alt": "assurancetourix"
+            }
+        },
+
+        {
+            "id": 8,
+            "name": "Asterix-xl",
+            "description": "Asterix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "image": {
+                "src": "asterix-xl.png",
+                "alt": "asterix-xl"
+            }
+        },
+
+        {
+            "id": 9,
+            "name": "Numerobis",
+            "description": "Numerobis est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "image": {
+                "src": "numerobis.png",
+                "alt": "numerobis"
+            }
+        },
+
+        {
+            "id": 10,
+            "name": "Obeleix-et-idefix",
+            "description": "Obeleix et idefix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "image": {
+                "src": "obelix-et-idefix.png",
+                "alt": "obeleix et idefix"
+            }
+        },
+
+        {
+            "id": 11,
+            "name": "Panoramix",
+            "description": "Panoramix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "image": {
+                "src": "panoramix.png",
+                "alt": "panoramix"
+            }
+        },
+
+        {
+            "id": 12,
+            "name": "Tragicomix",
+            "description": "Tragicomix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "image": {
+                "src": "tragicomix.png",
+                "alt": "tragicomix"
+            }
+        }
+        
     ]
 }

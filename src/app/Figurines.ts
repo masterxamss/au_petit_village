@@ -3,6 +3,7 @@ export interface Figurines{
     name: string;
     description: string;
     price: number;
+    tag: string;
     image: {
         src: string;
         alt: string;

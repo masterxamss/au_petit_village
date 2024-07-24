@@ -14,7 +14,8 @@ h1,h2{
 
 body{
     /* min-width: 375px; */
-    background-image:url('/assets/images/ville_.jpg');
+    /* background-image:url('/assets/images/ville_.jpg');
     background-size:100%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    color: #151217;
 }

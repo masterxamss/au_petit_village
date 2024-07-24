@@ -1,1 +1,108 @@
-<p>footer works!</p>
+<footer>
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <address>
+          <p type="">
+            <fa-icon [icon]="faPhone"></fa-icon>
+            Applez-nous au :
+            <a href="tel:+33612345678">06 12 34 56 78</a>
+          </p>
+
+          <p>
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+            E-mail :
+            <a href="mailto:aupetitvillage&#64;mail.com"
+              >aupetitvillage&#64;mail.com</a
+            >
+          </p>
+
+          <p>
+            <fa-icon [icon]="faLocationDot"></fa-icon>
+            Adresse : 11 rue des Lilas, 75001 Paris
+          </p>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer-content">
+      <div class="footer-information">
+        <h3>Information</h3>
+        <ul>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Livraison
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Mention légales
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Conditions de vente
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Paiement sécurisé
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Question fréquants
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <fa-icon [icon]="faChevronRight"></fa-icon>
+              Politique de confidialité
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-content">
+      <div class="newsletter">
+        <h3>newsletter</h3>
+        <div>
+          <input type="text" placeholder="S'incrire à la newsletter" />
+          <button>
+            <fa-icon class="icon-sad" [icon]="faEnvelope"></fa-icon>
+            S'abonner
+          </button>
+        </div>
+      </div>
+      <div class="social-icons">
+        <div>
+          <div class="icons">
+            <h3>Suivez-nous</h3>
+            <div>
+              <a href="https://www.facebook.com" target="_blank">
+                <fa-icon class="icon-sad" [icon]="faFacebook"></fa-icon>
+              </a>
+              <a href="https://www.twitter.com" target="_blank">
+                <fa-icon class="icon-sad" [icon]="faTwitter"></fa-icon>
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <fa-icon class="icon-sad" [icon]="faInstagram"></fa-icon>
+              </a>
+            </div>
+          </div>
+          <div class="icons-img">
+            <img src="./assets/images/footer_img.png" alt="" width="80%" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <small>Copyright &#64; 2022 | Tous droits réservés.</small>
+</footer>

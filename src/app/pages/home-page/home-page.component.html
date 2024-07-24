@@ -1,22 +1,91 @@
 <section>
-    
-    <div>
+  <div class="banner">
+    <img src="./assets/images/template(2).jpg" alt="" width="100%" />
+  </div>
+
+  <div class="header-container">
+    <h2>Figurines</h2>
+    <p class="figure-count">Il y a {{ productCount }} produits.</p>
+  </div>
+
+  <div class="container">
+    <div class="search">
+      <h3>Filtrer par :</h3>
       <form>
-        <input type="text" placeholder="" [(ngModel)]="searchTerm" [ngModelOptions]="{standalone: true}">
-        <select name="price" id="price-select" [(ngModel)]="sorting">
-          <option value="">Trier par prix</option>
-          <option value="asc">Croissant</option>
-          <option value="desc">Decroissant</option>
-        </select>
+        <p>Nom :</p>
+        <div class="search-name">
+          <input #input type="text" placeholder="Nom du produit">
+          <button (click)="getInputValue()">
+            <fa-icon class="search-icon" [icon]="faMagnifyingGlass"></fa-icon>
+          </button>
+        </div>
+
+        <div class="select-price">
+          <p>Prix :</p>
+          <select name="price" id="price-select" [(ngModel)]="sorting">
+            <option value="">Trier par prix</option>
+            <option value="asc">Croissant</option>
+            <option value="desc">Decroissant</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Tag :</legend>
+          <div class="checkbox-container">
+            <div>
+              <input
+              type="checkbox"
+              id="limited-edition"
+              name="limited-edition"
+              value="Edition limitée"
+              #limitedEdition
+              (click)="getCheckBoxValue()"
+              />
+              <label for="limited-edition">Edition limitée</label>
+            </div>
+          
+            <div>
+              <input
+                type="checkbox"
+                id="new"
+                name="new"
+                value="Nouveau"
+                #new
+                (click)="getCheckBoxValue()"
+              />
+              <label for="new">Nouveau</label>
+            </div>
+          </div>
+        </fieldset>
       </form>
     </div>
-    
-    <div *ngFor="let figure of figure | filterByName: searchTerm | sortByPrice: sorting">
-      <h2>{{ figure.name }}</h2>
-      <a routerLink="/product/{{ figure.id }}">
-        <img src="./assets/images/figurines/{{ figure.image.src }}" alt="{{ figure.image.alt }}"/>
-      </a>
-      
-      <p>{{ figure.price }}</p>
+
+    <div class="master-container-figures">
+      <div class="not-found" #notFound>
+        <fa-icon class="icon-sad" [icon]="faFaceSadTear"></fa-icon>
+        <p>Aucun produit ne correspond à votre recherche.</p>  
+      </div>
+
+      <div class="container-figures" #divElement>
+        <div class="content" *ngFor="let figure of figure | filterByTag : tag | filterByName : searchTerm | sortByPrice : sorting" >
+              <a routerLink="/product/{{ figure.id }}">
+                <p>
+                  <fa-icon [icon]="faTag"></fa-icon>
+                  {{ figure.tag }}
+                </p>
+                <img
+                  src="./assets/images/figurines/{{ figure.image.src }}"
+                  alt="{{ figure.image.alt }}"
+                  width="200px"
+                />
+                <h3>{{ figure.name }}</h3>
+                <p>{{ figure.price }} €</p>
+            </a>
+            <button>Ajouter au panier</button>        
+        </div>
+      </div>
     </div>
-    </section>
+  </div>
+
+
+</section>
