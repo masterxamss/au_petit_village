@@ -1,27 +1,47 @@
-# AuPetitVillage
+# Au petit village
+  <img src="https://github.com/masterxamss/portfolio/assets/133535176/d891aecb-729a-4957-97ab-259a87a26074" width="80" height="50" />
+  <img src="https://github.com/masterxamss/au_petit_village/blob/main/public/assets/images/logo.png" width="80" height="100" />
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+#
+## Getting Started 🚀
+These instructions will lead you to make a copy on your machine
+### Prerequisites 📝
+```
+git@2.34.1 or higher
+node@v20.13.1 or higher
+npm@10.5.2 or higher
+```
+## Project setup 🔧
+From your command line, first clone portfolio:
+```
+# Clone the repository
+$ git clone https://github.com/masterxamss/au_petit_village.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Move into the repository
+$ cd au_petit_village
 
-## Build
+# Remove the current origin repository
+$ git remote remove origin
+```
+After that, you can install the dependencies either using NPM.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Using NPM: Simply run the below commands.
+```
+# Install dependencies
+$ npm install
+$ npm install -g json-server
+$ npm install -g @angular/cli
+$ ng add @fortawesome/angular-fontawesome@latest
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# Start the development server
+$ npm run server
+$ ng serve
+```
+**NOTE:** If your run into issues installing the dependencies with NPM, use this below command:
+```
+# Install dependencies with all permissions
+$ sudo npm install --unsafe-perm=true --allow-root
+```
