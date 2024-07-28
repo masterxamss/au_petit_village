@@ -6,34 +6,35 @@
     align-items: center;
     border-bottom: 1px solid #DA001E;
     background-color: #FDD90B;  
-}
+    padding: 0 3rem;
+    }
 
 .header-container{
-    padding: 0 2rem;
-    width: 50%;
+    padding: .5rem 2rem;
+    width: 100%;
     background-color: #FDD90B;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
 }
 
-.header-container h1{
-    font-size: 3em;
-    margin-right: 1rem;
-    width: 100%;
-    text-align: center;
-    color: #DA001E; 
-    text-shadow: 3px 3px 0px #2c2e38, 5px 5px 0px #5c5f72; 
-    letter-spacing: 10px;
-    
+.header-container img{
+    width: 30%;
 }
+/* .header-container h1{
+    font-size: 3em;
+    width: 100%;
+    color:#DA001E;
+    letter-spacing: 10px;
+} */
 
 
 .topnav-menu{
     text-align: center;
     /* border: 1px solid #FDD90B ; */
-    width: 50%;
+    width: 100%;
+    text-align: right;
 }
 
 .topnav-menu ul{
@@ -44,13 +45,11 @@
 .topnav-menu ul li{
     display: inline-block;
     padding: 1rem 1em;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .topnav-menu ul li:hover{
-    border-radius: 5px;
     background-color: rgba(255, 255, 255, .3);
-
 }
 
 
@@ -80,6 +79,7 @@ fa-icon{
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding: 0;
     }
 
     .menuIcon{
@@ -95,21 +95,11 @@ fa-icon{
     }
 
     .header-container{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        text-align: right;
         width: 100%;
-        padding: 0 2rem;
     }
 
     .logo{
         width: 100px;
-    }
-
-    .header-container h1{
-        display: none;
     }
 
     .topnav-menu ul li{
@@ -118,7 +108,7 @@ fa-icon{
         border-radius: 0;
         border-bottom: 1px solid #DA001E;
         text-align: left;
-        background-color: #F9D0A3;
+        background-color: #FDD90B;
     }
 
 

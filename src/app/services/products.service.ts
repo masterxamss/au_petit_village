@@ -7,6 +7,7 @@ import { Figurines } from '../Figurines';
   providedIn: 'root'
 })
 export class ProductsService {
+  
   private apiUrl = 'http://localhost:3000/figurines';
 
   constructor(private http: HttpClient) {}

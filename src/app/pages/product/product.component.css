@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.content-img{
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    background: radial-gradient(#ffffff, #b4b2b2);
+    border-radius: 15px;
+    /* border: 2px solid gray; */
+    flex : 1 0 calc(30% - 1rem);
+    height: 300px;
+}
+
+.content-img img{
+    width: 300px;
+}
+
+.content-description{
+    padding: 0 2rem;
+    flex : 1 0 calc(50% - 1rem);
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+.content-description h2{
+    margin-bottom: 1.5rem;
+}
+
+.content div h2{
+    margin-top: 1rem;
+    text-decoration: underline;
+}
+
+.description{
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+.tag{
+    background-color: #DA001E;
+    color: white;
+    padding: .5rem;
+    border-radius: 25px;
+    width: fit-content;
+    margin:1rem 0;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.technical-data{
+    flex : 1 0 calc(20% - 1rem);
+    border: 5px, solid gray;
+}
+
+.technical-data h3{
+    margin: 2rem 0;
+}
+
+.technical-data p{
+    margin-bottom: 1.5rem;
+    font-weight: bolder;
+}
+
+.technical-data p span{
+    font-weight: lighter;
+    color: gray;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 1rem 0;
+}
+
+.content-description a{
+    width: 100%;
+    background-color: #151217;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    margin-top:3rem;
+    text-align: center;
+}
+
+.content-description a:hover{
+    border: 1px solid #FDD90B;
+    color: #FDD90B;
+}
+
+@media screen and (max-width: 768px) {
+    .content{
+        width: 100%;
+    }
+    
+    .content div{
+        width: 100%;
+    }
+
+    .technical-data{
+        padding: .5rem;
+    }
+
+    .content-description{
+        padding: .5rem;
+    }
+}

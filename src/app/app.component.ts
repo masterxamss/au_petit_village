@@ -3,6 +3,7 @@ import { RouterOutlet  } from '@angular/router';
 
 import { HeaderComponent } from "./components/header/header.component";
 import { FooterComponent } from "./components/footer/footer.component";
+import { BannerComponent } from "./components/banner/banner.component";
 
 
 @Component({
@@ -11,7 +12,8 @@ import { FooterComponent } from "./components/footer/footer.component";
   imports: [
     RouterOutlet,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

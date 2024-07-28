@@ -1,17 +1,14 @@
 <header (window:resize)="toggleMenu($event)">
-  <div class="infos"></div>
   <nav class="header-topnav">
     <div class="header-container">
       <a routerLink="/">
         <img
           class="logo"
-          src="./assets/images/template.png"
+          src="./assets/images/logo.png"
           alt=""
-          width="150px"
         />
       </a>
-      <h1>Au petit village</h1>
-
+      <!-- <h1>Au Petit Village</h1> -->
       <a (click)="toggleMenu()" class="icon">
         <fa-icon [icon]="icon" class="menuIcon"></fa-icon>
       </a>
@@ -20,15 +17,16 @@
     <div class="topnav-menu">
       <ul #el>
         <li>
-          <a routerLink="/"><fa-icon [icon]="faHouse"></fa-icon>Home</a>
+          <a routerLink="/">
+            <fa-icon [icon]="faHouse"></fa-icon>
+            Accueil
+          </a>
         </li>
         <li>
-          <a routerLink="/about"
-            ><fa-icon [icon]="faPeopleGroup"></fa-icon>About</a
-          >
-        </li>
-        <li>
-          <a routerLink="/contact">Contact</a>
+          <a routerLink="/about">
+            <fa-icon [icon]="faPeopleGroup"></fa-icon>
+            À propos
+          </a>
         </li>
       </ul>
     </div>

@@ -1,5 +1,32 @@
-<div *ngIf="figure">
-    <h2>{{ figure.name }}</h2>
-        <img src="./assets/images/figurines/{{ figure.image.src }}" alt="{{ figure.image.alt }}"/>
-    <p>{{ figure.price }}</p>
-</div>
+
+<section class="container">
+    <div class="content" *ngIf="figure">
+        <div>
+            <div class="content-img">
+                <img src="./assets/images/figurines/{{ figure.image.src }}" alt="{{ figure.image.alt }}"/>
+            </div>
+            <div class="technical-data">
+                <h3>Caractères techniques</h3>
+                <p>Personnage : <span>{{ figure.name }}</span></p>
+                <p class="material">Matiére : <span>{{ figure.material }}</span></p>
+                <p class="dimension">Dimension : <span>{{ figure.dimension }}</span></p>
+                <p class="weight">Poids : <span>{{ figure.weight }}</span></p>
+                <p class="specimens">Exemplaires : <span>{{ figure.specimens }}</span></p>
+            </div>
+        </div>
+        <div class="content-description">
+            <h2>Description</h2>
+            <p class="description">{{ figure.description }}</p>
+                <p class="tag">
+                    <fa-icon [icon]="faTag"></fa-icon>
+                    {{ figure.tag }}
+                </p>
+            <p class="price">{{ figure.price }} € </p>
+            <a href="#">
+                <fa-icon [icon]="faCartShopping"></fa-icon>
+                Acheter
+            </a>
+        </div>        
+    </div>
+</section>
+

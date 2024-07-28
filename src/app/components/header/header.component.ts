@@ -27,7 +27,6 @@ export class HeaderComponent {
 
   toggleMenu(event?: any) {
     const newShowMenu = event ? event.target.innerWidth > 768 : !this.showMenu;
-
     this.showMenu = newShowMenu;
 
     if (newShowMenu) {

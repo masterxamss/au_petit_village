@@ -32,7 +32,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
     FilterByNamePipe,
     SortByPricePipe,
     FilterByTagPipe,
-    FontAwesomeModule,
+    FontAwesomeModule
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
@@ -59,7 +59,6 @@ export class HomePageComponent implements AfterViewChecked {
 
   constructor(private productsService: ProductsService, private cdref: ChangeDetectorRef) {
     this.getFigurines();
-    
   }
 
   // GET ALL PRODUCTS FROM productsService
