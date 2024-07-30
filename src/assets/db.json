@@ -1,0 +1,196 @@
+{
+    "figurines": [
+        {
+            "id": 1,
+            "name": "Asterix",
+            "description": "La figurine d'Astérix est une pièce exceptionnelle pour les amateurs du célèbre univers de bande dessinée créé par René Goscinny et Albert Uderzo. Mesurant 17 cm de hauteur, cette figurine en plastique capture avec précision les traits caractéristiques du petit Gaulois rusé et courageux. Astérix est représenté avec son casque ailé distinctif, sa tunique noire, sa ceinture rouge, et ses braies rayées rouges et blanches. Chaque détail est soigneusement reproduit, des plis de ses vêtements à la texture de ses bottes, témoignant d'un souci d'authenticité et de fidélité à l'œuvre originale. Le prix de cette figurine est de 19,90 €, ce qui en fait une option abordable pour ceux qui souhaitent ajouter une touche de magie gauloise à leur collection. Que ce soit pour décorer une étagère ou pour offrir en cadeau, cette figurine d'Astérix est un incontournable pour tous les fans de ses aventures épiques contre les Romains.",
+            "price": "19.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "asterix.png",
+                "alt": "Figurine Asterix"
+            }
+        },
+
+        {
+            "id": 2,
+            "name": "Obélix",
+            "description": "Obélix est l'un des personnages les plus emblématiques de la série de bandes dessinées 'Astérix' créée par René Goscinny et Albert Uderzo. Ami inséparable d'Astérix, Obélix est reconnaissable à sa grande taille, sa force surhumaine et son appétit insatiable pour les sangliers. Enfant, il est tombé dans une marmite de potion magique, ce qui lui a conféré une force extraordinaire pour toute sa vie. Cette figurine d'Obélix est une représentation fidèle de ce personnage attachant. Avec ses tresses rousses, sa moustache distinctive et son casque ailé, il porte son traditionnel pantalon à rayures bleues et blanches. La figurine capture également son expression joviale et amicale, ainsi que sa posture robuste. Pour tous les collectionneurs et fans d'Astérix, cette figurine d'Obélix est un incontournable qui apporte une touche de la magie gauloise à toute collection.",
+            "price": "109.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "obelix-et-son-tonneau.png",
+                "alt": "Obélix et son tonneau"
+            }
+        },
+
+        {
+            "id": 3,
+            "name": "Idefix",
+            "description": "Découvrez la magie du village gaulois avec cette magnifique figurine d'Idéfix, le fidèle compagnon à quatre pattes d'Obélix. Entièrement faite à la main, cette pièce d'exception capture avec précision l'esprit et le charme du célèbre chien gaulois. Chaque détail est soigneusement sculpté pour refléter l'apparence emblématique d'Idéfix, de son pelage blanc immaculé à son expression malicieuse et curieuse. Fabriquée avec des matériaux de haute qualité, cette figurine est non seulement une œuvre d'art, mais aussi un hommage aux aventures intemporelles d'Astérix et Obélix. Idéale pour les collectionneurs et les amateurs de la bande dessinée, cette figurine artisanale apportera une touche d'authenticité et de nostalgie à votre collection. Emportez chez vous un morceau de l'univers de Goscinny et Uderzo avec cette représentation unique d'Idéfix.",
+            "price": "19.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "idefix-xxl.png",
+                "alt": "Idefix"
+            }
+        },
+
+        {
+            "id": 4,
+            "name": "Cleopatre",
+            "description": "Cléopâtre, la célèbre reine d'Égypte, est un personnage mémorable de la série de bandes dessinées 'Astérix' créée par René Goscinny et Albert Uderzo. Apparue dans l'album 'Astérix et Cléopâtre', elle est dépeinte comme une reine majestueuse, déterminée à prouver la grandeur de son peuple en construisant un somptueux palais pour Jules César en un temps record. Connue pour sa beauté légendaire et son caractère fort, Cléopâtre est une figure centrale et fascinante de l'univers d'Astérix. Cette figurine de Cléopâtre capture toute la grâce et l'élégance de la reine d'Égypte. Vêtue de sa tenue royale, ornée de bijoux somptueux et portant sa coiffe emblématique, elle incarne la splendeur et la noblesse. La figurine reflète également son expression déterminée et son allure majestueuse, faisant d'elle une pièce maîtresse pour tout collectionneur ou fan d'Astérix. Ajoutez une touche de majesté égyptienne à votre collection avec cette magnifique figurine de Cléopâtre.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "cleopatre.png",
+                "alt": "Cleopatre 'Qu'on serve l'aperitif'"
+            }
+        },
+
+        {
+            "id": 5,
+            "name": "Abraracourcix",
+            "description": "Abraracourcix est le chef respecté et courageux du village gaulois dans la célèbre série de bandes dessinées 'Astérix' créée par René Goscinny et Albert Uderzo. Connu pour sa robustesse, son autorité incontestée et son célèbre bouclier sur lequel il est souvent porté, Abraracourcix est une figure centrale et charismatique de l'univers d'Astérix. Sa plus grande crainte est que le ciel lui tombe sur la tête, mais il n'en reste pas moins un leader sage et déterminé. Cette figurine d'Abraracourcix capture parfaitement son allure imposante et son attitude de chef. Avec son casque à plumes, sa grande moustache et son bouclier emblématique, il est prêt à diriger ses guerriers et à défendre son village contre les envahisseurs. La figurine met également en valeur ses vêtements distinctifs et son air résolu. Pour tous les collectionneurs et amateurs d'Astérix, cette figurine d'Abraracourcix est un incontournable qui ajoute une touche d'autorité gauloise à toute collection.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "abraracourcix.png",
+                "alt": "abraracourcix"
+            }
+        },
+
+        {
+            "id": 6,
+            "name": "Amerix",
+            "description": "Amerix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "amerix.png",
+                "alt": "amerix"
+            }
+        },
+
+        {
+            "id": 7,
+            "name": "Assurancetourix",
+            "description": "Assurancetourix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "assurancetourix.png",
+                "alt": "assurancetourix"
+            }
+        },
+
+        {
+            "id": 8,
+            "name": "Asterix-xl",
+            "description": "La figurine d'Astérix est une pièce exceptionnelle pour les amateurs du célèbre univers de bande dessinée créé par René Goscinny et Albert Uderzo. Mesurant 17 cm de hauteur, cette figurine en plastique capture avec précision les traits caractéristiques du petit Gaulois rusé et courageux. Astérix est représenté avec son casque ailé distinctif, sa tunique noire, sa ceinture rouge, et ses braies rayées rouges et blanches. Chaque détail est soigneusement reproduit, des plis de ses vêtements à la texture de ses bottes, témoignant d'un souci d'authenticité et de fidélité à l'œuvre originale. Le prix de cette figurine est de 49,90 €, ce qui en fait une option abordable pour ceux qui souhaitent ajouter une touche de magie gauloise à leur collection. Que ce soit pour décorer une étagère ou pour offrir en cadeau, cette figurine d'Astérix est un incontournable pour tous les fans de ses aventures épiques contre les Romains.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "asterix-xl.png",
+                "alt": "asterix-xl"
+            }
+        },
+
+        {
+            "id": 9,
+            "name": "Numerobis",
+            "description": "Numerobis est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "numerobis.png",
+                "alt": "numerobis"
+            }
+        },
+
+        {
+            "id": 10,
+            "name": "Obeleix-et-idefix",
+            "description": "Obeleix et idefix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "obelix-et-idefix.png",
+                "alt": "obeleix et idefix"
+            }
+        },
+
+        {
+            "id": 11,
+            "name": "Panoramix",
+            "description": "Panoramix est une figurine de l'univers de l'Astérix et de la Léo. C'est une figurine de l'Astérix et de la Léo.",
+            "price": "44.90",
+            "tag": "Edition limitée",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "panoramix.png",
+                "alt": "panoramix"
+            }
+        },
+
+        {
+            "id": 12,
+            "name": "Tragicomix",
+            "description": "Tragicomix est un personnage de la célèbre bande dessinée 'Astérix' créée par René Goscinny et Albert Uderzo. C'est un jeune Gaulois connu pour son apparence séduisante et son courage. Fiancé à Falbala, il est enlevé par les Romains dans l'album 'Astérix légionnaire', ce qui pousse Astérix et Obélix à s'engager dans l'armée romaine pour le retrouver.Cette figurine de Tragicomix capture parfaitement son charme et son allure héroïque. Avec ses cheveux blonds ondulés, ses vêtements élégants et son regard déterminé, elle est un hommage fidèle au personnage tel qu'il apparaît dans les albums. Que vous soyez un collectionneur passionné ou un fan d'Astérix, cette figurine de Tragicomix est un ajout indispensable à votre collection.",
+            "price": "22.90",
+            "tag": "Nouveau",
+            "material" : "Plastique",
+            "dimension" : "17cm",
+            "weight" : "0.5kg",
+            "specimens" : "1000",
+            "image": {
+                "src": "tragicomix.png",
+                "alt": "tragicomix"
+            }
+        }
+        
+    ]
+}

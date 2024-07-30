@@ -24,10 +24,7 @@ export class ProductComponent {
 
   faTag = faTag;
   faCartShopping = faCartShopping;
-  constructor(
-    private route: ActivatedRoute,
-    private productsService: ProductsService,
-  ) {
+  constructor(private route: ActivatedRoute,private productsService: ProductsService,) {
     this.getFigure();
   }
 

@@ -2,6 +2,8 @@ import { Component, ViewChild, ElementRef, AfterViewChecked, ChangeDetectorRef }
 import { RouterLink  } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { NgFor, NgIf } from '@angular/common';
+import { catchError, tap } from 'rxjs/operators';
+import { of } from 'rxjs';
 
 /* Services */
 import { ProductsService } from '../../services/products.service';
@@ -38,14 +40,12 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
   styleUrl: './home-page.component.css'
 })
 export class HomePageComponent implements AfterViewChecked {
+
   figure: Figurines[] = [];
-  
   searchTerm: string = '';
   sorting: string = '';
   tag: string = '';
-
   productCount: number = 0;
-
   faTag = faTag;
   faFaceSadTear = faFaceSadTear;
   faMagnifyingGlass = faMagnifyingGlass;
@@ -61,9 +61,22 @@ export class HomePageComponent implements AfterViewChecked {
     this.getFigurines();
   }
 
-  // GET ALL PRODUCTS FROM productsService
+  //GET ALL PRODUCTS FROM productsService
   getFigurines() {
-    this.productsService.getAll().subscribe((figure) => (this.figure = figure));
+    this.productsService.getAll().pipe(
+      tap(data => {
+        // Check if data is an array
+        if (Array.isArray(data)) {
+          this.figure = data;
+        } else {
+          console.error('The data received is not a array:', data);
+        }
+      }),
+      catchError(error => {
+        console.error('Data loading error', error);
+        return of([]); //returns an empty array on error
+      })
+    ).subscribe();
   }
 
   getCheckBoxValue() {
@@ -78,6 +91,7 @@ export class HomePageComponent implements AfterViewChecked {
 
   getInputValue() {
     this.searchTerm = this.input.nativeElement.value;
+    console.log('teste');
   }
 
   ngAfterViewChecked(): void {
