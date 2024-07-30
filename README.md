@@ -32,12 +32,10 @@ Using NPM: Simply run the below commands.
 ```
 # Install dependencies
 $ npm install
-$ npm install -g json-server
 $ npm install -g @angular/cli
 $ ng add @fortawesome/angular-fontawesome@latest
 
 # Start the development server
-$ npm run server
 $ ng serve
 ```
 **NOTE:** If your run into issues installing the dependencies with NPM, use this below command:
