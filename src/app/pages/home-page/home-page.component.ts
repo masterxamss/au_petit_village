@@ -91,7 +91,6 @@ export class HomePageComponent implements AfterViewChecked {
 
   getInputValue() {
     this.searchTerm = this.input.nativeElement.value;
-    console.log('teste');
   }
 
   ngAfterViewChecked(): void {
